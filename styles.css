@@ -1,0 +1,137 @@
+/* Общие стили */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  background-image: url("https://i.ibb.co/FScnR68/2025-07-27-23-29-49.jp"); /* укажите свой путь к изображению */
+  background-size: cover; /* покрывать весь фон без искажения */
+  background-position: center; /* центрировать изображение */
+  background-repeat: no-repeat; /* не повторять изображение */
+  background-attachment: fixed; /* фиксировать фон при прокрутке (опционально) */
+}
+
+/* Стиль для рукописных шрифтов */
+.script1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.script2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font {
+  font-size: 90px;
+}
+
+.font2 {
+  font-size: 70px;
+}
+
+.font3 {
+  font-size: 50px;
+}
+
+.font4 {
+  font-size: 35px;
+}
+
+/* Заголовки и основные элементы */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -80px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header h2 {
+  font-size: 28px;
+}
+
+.header .date {
+  font-size: 20px;
+}
+
+/* Таймер */
+.countdown {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#timer div {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#timer span {
+  display: block;
+  font-size: 24px;
+}
+
+/* Место проведения */
+.location {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.location h3 {
+  text-align: center;
+}
+
+.location p {
+  text-align: center;
+}
+
+/* Фото молодоженов */
+.photo {
+  max-width: 800px;
+  margin: 0 auto 0px auto;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Дресс-код */
+.dress-code {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dress-code h3 {
+  text-align: center;
+}
+
+.dress-code p {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  #timer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
