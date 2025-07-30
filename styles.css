@@ -91,6 +91,11 @@ header h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.mainfoto {
+  max-width: 350px;
+  max-height: 350px;
+}
+
 #timer span {
   display: block;
   font-size: 24px;
