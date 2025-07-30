@@ -23,6 +23,12 @@ body {
   font-style: normal;
 }
 
+.script3 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .font {
   font-size: 70px;
   color: #535353;
@@ -48,6 +54,12 @@ body {
   font-family: "Montserrat Alternates", cursive;
   font-weight: 300;
   color: #6d6d6d;
+}
+
+.font6 {
+  font-size: 30px;
+  margin-top: -20px;
+  color: #5d5d5d;
 }
 
 /* Заголовки и основные элементы */
