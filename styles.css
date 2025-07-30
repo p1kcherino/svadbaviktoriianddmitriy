@@ -14,17 +14,18 @@ body {
 
 /* Стиль для рукописных шрифтов */
 .script1 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat Alternates", cursive;
 }
 
 .script2 {
   font-family: "Great Vibes", cursive;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
 .font {
   font-size: 70px;
+  color: #535353;
 }
 
 .font2 {
@@ -37,6 +38,12 @@ body {
 
 .font4 {
   font-size: 20px;
+}
+
+.font5 {
+  font-family: "Montserrat Alternates", cursive;
+  font-weight: 300;
+  color: #6d6d6d;
 }
 
 /* Заголовки и основные элементы */
@@ -71,6 +78,13 @@ header h2 {
 }
 
 #timer div {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mainfon {
   background-color: #fff;
   padding: 15px 20px;
   border-radius: 10px;
